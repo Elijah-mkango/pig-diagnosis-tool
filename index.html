@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pig Disease Diagnosis Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pig Disease Diagnosis Tool</h1>
+    <p>Enter at least 2 symptoms to see likely diseases, treatment, medicine, and prevention.</p>
+  </header>
+<img src="pig.webp" alt="Pig Image" class="hero-image">
+<p style="font-size:15px">
+<h2>CORE ADVICE FOR PIG FARMERS</h2><br><br>
+<i><b>BEFORE YOU BEGIN USING THIS TOOL CONSIDER THE FOLLOWING:</b></I><br><br>
+<b>1. Biosecurity & Disease Prevention</b><br>  
+<li>Limit visitors and control movement of people, vehicles, and equipment into pig areas.
+
+<li>Quarantine new pigs before mixing them with the herd.
+
+<li>Regularly disinfect pens, feeding equipment, and water troughs.
+
+<li>Vaccinate against common diseases (PRRS, Mycoplasma, Erysipelas, Parvovirus, etc.) as recommended by a vet.
+
+<li>Watch for early signs of illness (fever, coughing, diarrhea, poor growth) and act quickly.<br><br>
+
+<b>2. Nutrition & Feeding</b><br>
+<li>Provide a balanced diet with adequate protein, energy, vitamins, and minerals.
+
+<li>Ensure piglets receive iron supplementation to prevent anemia.
+
+<li>Avoid moldy feed to prevent mycotoxicosis.
+
+<li>Always provide clean, fresh water — dehydration worsens most diseases.<br><br>
+
+<b>3. Housing & Environment</b><br>
+<li>Keep pens clean, dry, and well-ventilated to reduce respiratory diseases.
+
+<li>Avoid overcrowding — stress increases disease risk and reduces growth.
+
+<li>Maintain comfortable temperatures, especially for piglets (they chill easily).<br><br>
+
+<b>4. Breeding & Reproduction</b><br>
+<li>Monitor sows for fertility, pregnancy, and farrowing health.
+
+<li>Prevent reproductive diseases (PPV, Leptospirosis, Brucellosis) through vaccination and hygiene.
+
+<li>Provide good nutrition during gestation and lactation for strong piglets.<br><br>
+
+<b>5. Parasite Control</b><br>
+<li>Deworm regularly (internal parasites like roundworms, whipworms, lungworms).
+
+<li>Treat external parasites (mange, lice, ticks) with ivermectin or approved acaricides.
+
+<li>Keep bedding clean and control rodents (they spread disease).<br><br>
+
+<b>6. Record Keeping & Management</b><br>
+<li>Keep records of births, deaths, treatments, vaccinations, and feed usage.
+
+<li>Track growth rates and adjust feeding programs accordingly.
+
+<li>Use records to identify recurring problems and improve herd performance.<br><br>
+
+<b>7. Market & Business Side</b><br>
+<li>Stay updated on local pig prices and market demand.
+
+<li>Build relationships with reliable buyers, abattoirs, or cooperatives.
+
+<li>Explore value addition (e.g., pork processing, pig manure for fertilizer).
+</p>
+
+  
+
+  <main>
+    <div class="form-container">
+      <label for="symptoms">Enter Symptoms (comma separated):</label>
+      <input type="text" id="symptoms" placeholder="e.g., fever, cough, diarrhea">
+      <button id="diagnose-btn">Diagnose</button>
+      <p class="error" id="error"></p>
+    </div>
+
+    <div class="results" id="result">
+      <!-- Results will appear here -->
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Pig Health Advisor by otechy
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
